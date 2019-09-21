@@ -1,0 +1,174 @@
+html {
+	position: relative;
+}
+body{
+	background-color: #eaeaea;
+	margin-bottom: 100%;
+	/*margin-top: 30px;*/
+}
+ol, ul {
+	list-style: none;
+}
+p {
+	margin: 0px 0px 20px auto;
+}
+.topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 60px;
+	background-color: black;
+	z-index: 10;
+}
+.topbar ul li{
+	position: relative;
+	top: -60px;
+	right: 55px;
+	color: white;
+	float: right;
+	font-family: arial;
+	display: inline-block;
+}
+.topbar a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+.topbar h1 {
+	font-family: arial;
+	color: white;
+	font-weight: bold;
+	position: relative;
+	right: -30px;
+	top: -10px;
+}
+/*dikerjakan bersama*/
+#page-wrap {
+	width : 1200px;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0 5px 20px 0px #333;
+}
+#sidebar {
+	margin-top: 10px;
+	width: 180px;
+	float: right;
+}
+.bar {
+	margin-left: -40px;
+	font-weight: bold;
+	margin-top: 10px;
+	background-color : #999;
+}
+.bar a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding : 10px 20px;
+}
+.bar ul li {
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+	padding-top: 5px;
+}
+.bar a:hover {
+	background-color: #333;
+	color: white;
+}
+.clear {
+	clear: both;
+}
+#content {
+	width : 970px;
+	margin-left: 20px ;
+	padding-left: 20px;
+	min-height: 550px;
+	float: right;
+}
+#content h2 {
+	font-family: arial;
+}
+.kotak {
+	width: 200px;
+	/*height: 200px;*/
+	border-radius: 6px;
+	background-color: transparent;
+	margin: 20px;
+	float: left;
+	box-shadow: 0px 5px 20px 0px #999;
+	filter: grayscale(100%); 
+
+}
+img {
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 10px auto;
+}
+.kotak p {
+	text-align: center;
+	/*filter: grayscale(100%);*/
+}
+.kotak:hover {
+	filter: saturate(100%);
+
+}
+.word {
+	margin-left: 800px;
+	background-color: #999;
+	width: 130px;
+	margin-top: 10px;
+	font-weight: bold;
+	align-content: left;
+}
+.word:hover {
+	background-color: #333;
+}
+.word a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 13px 15px;
+}
+/*footer {
+	position: absolute;
+	text-align: center;
+	background-color: black;
+	font-family: verdana;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	width: 100%;
+	height: 40px;
+	padding-top: 20px;
+	margin-left: -10px;
+	margin-top: 40px;
+	
+}*/
+footer {
+	position: absolute;
+
+	width: 110%;
+	height: 50px;
+	left: -100px;
+	bottom: 0;
+	background-color: black;
+	padding-top: 30px;
+
+}
+footer p {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 0.9em;
+}
+footer p i {
+	color: salmon;
+}
